@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: red;
+}
+
+ul {
+    border: 2px solid black;    
+}
+
+p {
+    font-style: italic;
+}
+
+li {
+    background-color: lightblue;
+}
+
+ul li:nth-child(even) {
+    margin-bottom: 10px;
+}
